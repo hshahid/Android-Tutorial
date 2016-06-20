@@ -52,6 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
     // fired when the button is clicked
     public void onSubmit(View view) {
-
+        // show a "Hello World" message on screen
     }
 }
