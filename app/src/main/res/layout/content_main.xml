@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:text="@string/submitLabel"
         android:id="@+id/btnSubmit"
+        android:onClick="onSubmit"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
