@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    // fired when the button is clicked
     public void onSubmit(View view) {
+
     }
 }
