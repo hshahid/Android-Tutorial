@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -62,5 +63,6 @@ public class MainActivity extends AppCompatActivity {
         // set value into the label
         //display value as a quick alert
         String fieldValue = etWords.getText().toString();
+        Toast.makeText(this, fieldValue, Toast.LENGTH_SHORT).show();
     }
 }
