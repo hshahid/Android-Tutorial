@@ -61,5 +61,6 @@ public class MainActivity extends AppCompatActivity {
         // get value from textField
         // set value into the label
         //display value as a quick alert
+        String fieldValue = etWords.getText().toString();
     }
 }
