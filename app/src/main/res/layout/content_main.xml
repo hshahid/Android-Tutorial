@@ -39,7 +39,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/prefixetWords"
+        android:id="@+id/etWords"
         android:layout_above="@+id/btnSubmit"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
