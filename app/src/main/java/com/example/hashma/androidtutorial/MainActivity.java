@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         // set value into the label
         //display value as a quick alert
         String fieldValue = etWords.getText().toString();
+        tvLabel.setText(fieldValue);
         Toast.makeText(this, fieldValue, Toast.LENGTH_SHORT).show();
     }
 }
