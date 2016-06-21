@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/nothing_label"
-        android:id="@+id/textView"
+        android:id="@+id/tvLabel"
         android:layout_marginTop="40dp"
         android:layout_below="@+id/btnSubmit"
         android:layout_centerHorizontal="true" />
